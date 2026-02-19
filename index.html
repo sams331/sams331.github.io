@@ -19,9 +19,13 @@
   <div class="content">
     <p>Hello, I'm sams331!</p>
   </div>
+  <br>
   <div class="footer">
-    <footer>© Copyright 2026 Samuel B.</footer>
+    <footer>© Copyright <span id="year"></span> Samuel B.</footer>
     <footer>All Rights Reserved.</footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </div>
 </body>
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sons-of-obsidian"></script>
