@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 ::selection {
@@ -7,8 +7,8 @@
 }
 
 html {
-  background: #000124;
-  font-family: "Montserrat", sans-serif;
+  background: #131312;
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 
