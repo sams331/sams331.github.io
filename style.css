@@ -42,7 +42,7 @@ div.contentparagraph {
 .content {
 	flex: 70%;
 	padding: 20px;
-	background: linear-gradient(to right, #232834, #071840);
+	background: linear-gradient(to right, #333333, #696969);
   transition: transform 0.4s ease;
   animation: slide-in 0.6s ease forwards;
 }
