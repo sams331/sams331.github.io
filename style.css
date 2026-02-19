@@ -42,7 +42,7 @@ div.contentparagraph {
 .content {
 	flex: 70%;
 	padding: 20px;
-	background: linear-gradient(to right, #333333, #444444);
+	background: #444444;
   transition: transform 0.4s ease;
   animation: slide-in 0.6s ease forwards;
 }
@@ -70,7 +70,7 @@ div.contentparagraph {
 
 .navbar {
 	display: flex;
-	background: linear-gradient(to right, #696969, #424242);
+	background: #696969;
 	position: sticky;
 	top: 0;
 	left: 0;
