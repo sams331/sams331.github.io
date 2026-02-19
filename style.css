@@ -60,9 +60,9 @@ div.contentparagraph {
   z-index: 1;
   word-wrap: break-word;
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
   overflow: auto;
-  align-items: center;
+  align-items: left;
   background-repeat: no-repeat;
   background-position: right;
 }
