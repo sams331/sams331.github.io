@@ -1,2 +1,2 @@
-# sams331.github.io
-Main page of my github. Personal website
+# Hello!
+This site is just my personal website. Go to [it](sams331.github.io)!
