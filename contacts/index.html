@@ -1,41 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-  <title>Contacts</title>
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Ripple.js/1.0.0/ripple.min.css" integrity="sha512-XNnVU4JZ2hLN3fL4sD+BQAYtqn2yJziszQH8c/JxU74IkN32VcYQkAxaP/KKtbBVu7xlrDKPoiq5xrLtMoqhsg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sams331 | Contacts</title>
+    <link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Ripple.js/1.0.0/ripple.min.css" integrity="sha512-XNnVU4JZ2hLN3fL4sD+BQAYtqn2yJziszQH8c/JxU74IkN32VcYQkAxaP/KKtbBVu7xlrDKPoiq5xrLtMoqhsg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-  <div class="header">sams331 | Contacts</div>
-  <br>
-  <div class="navbar">
-    <a class="navitem" href="/">Main Page</a>
-    <a class="navitem" href="/contacts">Contacts</a>
-    <a class="navitem" href="/profile">Profile</a>
-    <a class="navitem" href="/creations">My Creations</a>
-  </div>
-  <br>
-  <div class="content">
-    <p>If you want to contact me, here are several ways:</p>
-    <ul>
-      <li>Discord: zxcrvbndm._</li>
-    </ul>
-    <p>... and that's it.</p>
-  </div>
-  <br>
-  <div class="footer">
-    <footer>© Copyright <span id="year"></span> Samuel B.</footer>
-    <footer>All Rights Reserved.</footer>
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </div>
+	<liquid-glass flex-center="false" blur="20" fallback-blur="25" responsive="true"
+                    vh-height="12.9"
+                    vw-width="95.95"
+                    bezel-width-percent="3.5"
+                    specular-opacity="0.3"
+                    flex-center="false"
+                    force-fallback="true">
+	<div class="header">
+<div class="header-content">
+		<h1>sams331</h1>
+
+		<div class="header-navigation">
+			<h2><a class="navigation-item" href="/"> Main Page</a></h2>
+			<h2><a class="navigation-item" href="/contacts"> Contacts</a></h2>
+			<h2><a class="navigation-item" href="/profile"> Profile</a></h2>
+			<h2><a class="navigation-item" href="/creations"> My Creations</a></h2>
+			
+		</div>
+		</div>
+	</div>
+	</liquid-glass>
+	<div class='main'>
+    <liquid-glass flex-center="false" blur="20" fallback-blur="25" responsive="true" vw-width="87.95" vh-height="69.5" radius-percent="3.5" bezel-width-percent="3.5" force-fallback="true">
+		<div class="content">
+		<h1 class="contentTitle">Contacts</h1>
+		<p>Here are several social medias that I have:</p>
+		<ul>
+			<li>Discord: <a href="https://discord.com/app">zxcrvbndm._</a></li>
+			<li>Github: <a href="https://github.com/sams331/">sams331</a></li>
+		</ul>
+		</div>
+    </liquid-glass>
+    </div>
+    
+   <div class="footer">
+   <p>&copy; Copyright <span id="yr"></span> sams331</p>
+   <p>All rights reserved.</p>
+   </div>
+   
+    <div class="photo-credit">
+    <p>Picture from <a href="https://unsplash.com/s/photos/aesthetic">unsplash</a></p>
+    </div>
+    
+    <script type="module" src="../liquid-web/lg-component.js"></script>
+	<script type="module" src="../liquid-web/lg-button-component.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sons-of-obsidian"></script>
+	<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+	<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Ripple.js/1.0.0/ripple.min.js" integrity="sha512-jRBTHH3CB1OrGa/hQmGV0f4E62Jm+KrZYDn/vWNs4CbMs+xTPzFE8NDW2kA56KYBko4YyMiL6jKJST36hosflw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="../ripple1.js"></script>
+	<script src="../responsive.js"></script>
+	<script>
+	document.getElementById('yr').textContent = new Date().getFullYear();
+	</script>
 </body>
-  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sons-of-obsidian"></script>
-<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Ripple.js/1.0.0/ripple.min.js" integrity="sha512-jRBTHH3CB1OrGa/hQmGV0f4E62Jm+KrZYDn/vWNs4CbMs+xTPzFE8NDW2kA56KYBko4YyMiL6jKJST36hosflw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="../ripple1.js"></script>
 </html>
